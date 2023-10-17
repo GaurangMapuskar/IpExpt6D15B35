@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const FormContainer = styled.div`
   max-width: 400px;
@@ -42,6 +44,8 @@ function ContactMe() {
     navigate(`/result?name=${name}&email=${email}`);
   };
   return (
+    <div>
+    <Navbar />
     <FormContainer>
     <form>
   <div>
@@ -54,6 +58,7 @@ function ContactMe() {
         placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
+        style={{width:"98%",height:"25px"}}
       />
      </Name>
      </div>
@@ -66,6 +71,7 @@ function ContactMe() {
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        style={{width:"98%",height:"25px"}}
       />
       </Name>
     </div>
@@ -77,6 +83,8 @@ function ContactMe() {
   </div>
   </form>
   </FormContainer>
+  <Footer />
+  </div>
   );
 }
 

@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Education = () => {
   const education = [
@@ -18,6 +20,7 @@ const Education = () => {
 
   return (
     <div>
+    <Navbar />
       <h1>Education</h1>
       <EducationList>
         {education.map((item) => (
@@ -28,6 +31,7 @@ const Education = () => {
           </EducationItem>
         ))}
       </EducationList>
+      <Footer />
     </div>
   );
 };

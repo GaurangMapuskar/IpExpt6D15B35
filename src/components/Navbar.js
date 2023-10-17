@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import profile from "../pages/profile.png"
 
 const Link = styled.nav`
 display:inline-flex;
@@ -22,7 +23,7 @@ const Navbar = () => {
   return (
     <div>
     <Nav>
-    <img src='/logo' alt='this is logo' />
+    <img src={profile} width="75px" style={{borderRadius:"37.5px"}}  alt='this is logo' />
     
     <nav>
       <Link>
