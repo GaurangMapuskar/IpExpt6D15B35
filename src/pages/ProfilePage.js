@@ -32,7 +32,7 @@ const ProfilePage = () => {
         </div>
       </div>
       </Profile>
-      <Footer />
+      <Footer name={"Gaurang Mapuskar"} number={9969780696} />
     </div>
 
   );

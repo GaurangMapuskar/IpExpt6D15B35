@@ -11,10 +11,11 @@ const Foot = styled.footer`
   height:60px;
 `;
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <Foot>
-      Copyright &copy; 2023 Gaurang Mapuskar
+      Copyright &copy; {props.name}<br></br>
+      Number : {props.number}
     </Foot>
   );
 };

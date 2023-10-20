@@ -17,7 +17,7 @@ function Result() {
       ) : (
         <h1>Thank you for contacting us.</h1>
       )}
-        <Footer />
+      <Footer name={"Gaurang Mapuskar"} number={9969780696} />
     </div>
   );
 }

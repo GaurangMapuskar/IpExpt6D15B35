@@ -83,7 +83,7 @@ function ContactMe() {
   </div>
   </form>
   </FormContainer>
-  <Footer />
+  <Footer name={"Gaurang Mapuskar"} number={9969780696} />
   </div>
   );
 }

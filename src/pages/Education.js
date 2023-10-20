@@ -31,7 +31,7 @@ const Education = () => {
           </EducationItem>
         ))}
       </EducationList>
-      <Footer />
+      <Footer name={"Gaurang Mapuskar"} number={9969780696} />
     </div>
   );
 };

@@ -41,7 +41,7 @@ const Skills = () => {
             </li>
           ))}
         </ul>
-        <Footer />
+        <Footer name={"Gaurang Mapuskar"} number={9969780696} />
       </div>
     );
   };
